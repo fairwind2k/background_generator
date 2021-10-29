@@ -5,7 +5,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	background: linear-gradient(to right, Violet , AntiqueWhite); /* Standard syntax */
+	background: linear-gradient(to right, #6221C4 , #EFE1CE); /* Standard syntax */
 }
 
 h1 {
@@ -24,4 +24,24 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01em;
 
+}
+
+. wrapper { 
+    width: 35px;
+    height: 35px;
+    display: flex;
+ }
+
+
+button {
+    font-size: 15px;
+    height: 31.7px;
+    margin: auto;
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    box-sizing: border-box;
+    line-height: normal;
+    padding-left: .5em;
 }
